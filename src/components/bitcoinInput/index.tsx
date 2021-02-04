@@ -47,6 +47,8 @@ const BitcoinInput = ({ value, onChange }: Props) => {
           decimalScale={8}
           title="Enter the amount you want to convert."
           isAllowed={checkIfAllowed}
+          inputMode="text"
+          allowEmptyFormatting={true}
         />
       </label>
     </InputWrapper>

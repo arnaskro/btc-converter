@@ -33,15 +33,9 @@ export const globalStyles = css`
       border-color: var(--color-focus);
     }
   }
-  
-  main:focus {
-    outline-width: 0;
-  }
-  @media (pointer: fine) {
-    main:focus {
-      outline-width: 2px;
-      outline-color: var(--color-focus);
-    }
+
+  main {
+    outline: none;
   }
 
   html,
